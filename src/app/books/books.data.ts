@@ -1,0 +1,7 @@
+import { Book } from "../interfaces/book";
+
+export const booksData: Book[] = [
+    {name: "The Iliad And The Odyssey", author:"Homer", genre: "Fiction, Poetry", logo: "assets/images/books/iliad-odyssey.jpg", details: "The Iliad, set during the Trojan War, tells the story of the wrath of Achilles. The Odyssey tells the story of Odysseus as he travels home from the war."},
+    {name: "Man On Fire", author: "A. J. Quinnell", genre: "Novel, Thriller", logo: "assets/images/books/man-on-fire.jpg", details: "When he takes the job as a bodyguard for the young daughter of an Italian industrialist he is awakened to new life by a beguiling human touch - until the unspeakable atrocity occurs. The child is kidnapped by violent terrorists and Creasy is thrown into a ferocious world of treachery and turmoil."},
+    {name: "Murder on the Orient Express", author: "Agatha Christie", genre: "Mystery", logo: "assets/images/books/murder-on-the-orient-express.webp", details: "The story revolves around the famous Belgian detective Hercule Poirot, who is traveling on the luxurious Orient Express. The train journey takes a dark turn when a wealthy American named Ratchett is found murdered. The novel follows Poirot as he interviews the passengers and unravels the mystery behind the murder. With its intricate plot and clever detective work, \"Murder on the Orient Express\" is a quintessential example of the mystery genre"}
+];

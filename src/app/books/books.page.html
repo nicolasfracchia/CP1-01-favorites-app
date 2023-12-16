@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Books
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card *ngFor="let b of books">
+    <img [alt]="b.name" [src]="b.logo" />
+    <ion-card-header>
+      <ion-card-title>{{ b.name }} - {{ b.author }}</ion-card-title>
+      <ion-card-subtitle>{{ b.genre }}</ion-card-subtitle>
+    </ion-card-header>  
+    <ion-card-content>{{ b.details }}</ion-card-content>
+    <ion-button fill="block">Read more...</ion-button>
+  </ion-card>
+  
+</ion-content>
