@@ -1,7 +1,7 @@
 import { Song } from "../interfaces/song";
 
 export const songsData: Song[] = [
-    { name: "Dance of Death", author: "Iron Maiden", album: "Dance of Death", logo: "assets/images/songs/dance-of-death.webp" },
+    { name: "Dance of Death", author: "Iron Maiden", album: "Dance of Death", logo: "assets/images/songs/dance-of-death.jpeg" },
     { name: "Fear of the Dark", author: "Iron Maiden", album: "Fear of the Dark", logo: "assets/images/songs/fear-of-the-dark.jpg" },
     { name: "The Trooper", author: "Iron Maiden", album: "Piece of Mind", logo: "assets/images/songs/piece-of-mind.jpg" },
     { name: "For Whom the Bell Tolls", author: "Metallica", album: "Ride the Lightning", logo: "assets/images/songs/ride-the-lightning.jpg" },

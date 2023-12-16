@@ -17,11 +17,6 @@ export const routes: Routes = [
           import('../songs/songs.page').then((m) => m.SongsPage),
       },
       {
-        path: 'tab3',
-        loadComponent: () =>
-          import('../tab3/tab3.page').then((m) => m.Tab3Page),
-      },
-      {
         path: '',
         redirectTo: '/books',
         pathMatch: 'full',
